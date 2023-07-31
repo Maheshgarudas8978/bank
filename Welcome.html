@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Welcome Page</title>
+<style type="text/css">
+body
+{
+	background-image: linear-gradient(45deg,red,orange,seagreen,darkred,cyan,forestgreen);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+#d1
+{
+	position: relative;
+	top:50px;
+}
+.input1
+{
+	width: 220px;
+	height: 50px;
+	border-radius: 10px 10px 10px 10px;
+	font-size: 20px;
+	font-family: cursive;
+	color:navy;
+	background-image: linear-gradient(45deg,red,orange,lime,hotpink,brown,gray,cyan);
+}
+h2
+{
+	font-family: 'Times New Roman', Times, serif;
+	text-decoration: overline;	
+	font-size:35px;
+	text-shadow: 0px 2px 4px blue;
+}
+#div1
+{
+	font-family: montserrat;
+	animation: pulse 7s linear infinite;
+    text-shadow: -4px 3px #fff , -10px 7px 0 rgb(220,220,220);
+}
+@keyframes pulse
+        {
+            200%
+            {
+                color: blue;
+            }
+            10%
+            {
+                color: rgb(248, 98, 29);
+            }
+            20%
+            {
+                color: rgb(12, 231, 118);
+            }
+            30%
+            {
+                color: rgb(209, 27, 142);
+            }
+            40%
+            {
+                color: rgb(147, 233, 8);
+            }
+            50%
+            {
+                color: rgb(199, 240, 64);
+            }
+            60%
+            {
+                color: rgb(75, 199, 236);
+            }
+            70%
+            {
+                color:tomato;
+            }
+            80%
+            {
+                color:seagreen;
+            }
+            100%
+            {
+                color: crimson;
+            }
+            100%
+            {
+                color:black;
+            }
+            100%
+            {
+                color:darkred;
+            }
+        }
+</style>
+</head>
+<body>
+<center>
+<div id="d1">
+<form>
+<div id="div1"><h2 id="a">Welcome To JSP Bank</h2></div><br><br>
+<a href="NewAccount.html" target="0"><input type="button" value="New Account" class="input1"></a>&nbsp&nbsp
+<a href="Withdraw.html" target="0"><input type="button" value="WithDraw" class="input1"></a>&nbsp&nbsp
+<a href="CheckBalance.html" target="0"><input type="button" value="Check Balance" class="input1"></a><br><br>
+<a href="Credit.html" target=0><input type="button" value="Credit" class="input1"></a>&nbsp&nbsp
+<a href="MobileTransaction.html" target="0"><input type="button" value="Mobile Transaction" class="input1"></a>
+</form>
+</div>
+</center>
+</body>
+</html>
